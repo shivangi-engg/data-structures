@@ -79,20 +79,3 @@ public class PrintLogicQueue
 		}
 	}
 }
-/*
-	
-		//running for loop from the last porition of array to the 0th index
-		for (i=last;i>=0 ;i-- ) 
-		{
-			//checking if the ith index already has a value , if not then put value of 
-			//input element at ith inde else fo to for loop iterator and check again 
-			if (array[i] == 0) 
-			{	
-				array[i] = element;	
-				break;
-			}	
-			else
-			{
-				continue;
-			}
-		}*/
