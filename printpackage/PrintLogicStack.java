@@ -63,7 +63,7 @@ public class PrintLogicStack
 		Scanner se =new Scanner(System.in);
 		System.out.println("enter the element u want to enter in the array:");
 		int element = se.nextInt();
-		//for loop to traverse from starting to ending of array
+		//for loop to traverse from ending to starting of array
 		for (i=last;i>=0 ;i-- ) 
 		{
 			if (arr[i] == arr[0]) 
